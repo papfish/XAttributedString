@@ -1,0 +1,16 @@
+PODS:
+  - XAttributedString (0.1.0)
+
+DEPENDENCIES:
+  - XAttributedString (from `../`)
+
+EXTERNAL SOURCES:
+  XAttributedString:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XAttributedString: 2199f1c4a597fdc8a540b36f9ef9524211b8db9a
+
+PODFILE CHECKSUM: 2fcd4576b747b373e9108db5a292c37962404714
+
+COCOAPODS: 1.4.0

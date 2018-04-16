@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xuliang/XAttributedString'
+  s.homepage         = 'https://github.com/xuliang2015/XAttributedString'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xuliang' => 'liang.xv@qq.com' }
-  s.source           = { :git => 'https://github.com/xuliang/XAttributedString.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xuliang2015/XAttributedString.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

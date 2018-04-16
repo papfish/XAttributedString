@@ -7,8 +7,11 @@
 //
 
 #import "XViewController.h"
+#import "XAttributedString-umbrella.h"
 
 @interface XViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *atrLab;
 
 @end
 
@@ -18,6 +21,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *text = @"测试属性字符";
+    NSMutableAttributedString *mAtrStr = [[NSMutableAttributedString alloc] initWithString:text];
+    [mAtrStr x_addAttributeTextColor:[UIColor redColor] range:NSMakeRange(2, 2)];
+    [mAtrStr x_addAttributeFont:[UIFont systemFontOfSize:12] range:NSMakeRange(0, 2)];
+    [mAtrStr x_addAttributeUnderlineStyle:NSUnderlineStyleSingle color:[UIColor blackColor]];
+    [self.atrLab setAttributedText:mAtrStr];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module XAttributedString {
+  umbrella header "XAttributedString-umbrella.h"
+
+  export *
+  module * { export * }
+}
