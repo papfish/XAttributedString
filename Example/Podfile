@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XAttributedString_Example' do
+  pod 'XAttributedString', :path => '../'
+
+  target 'XAttributedString_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
