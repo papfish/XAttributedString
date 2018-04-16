@@ -19,6 +19,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'XAttributedString'
 ```
+## Usage
+
+```
+NSString *text = @"测试属性字符";
+NSMutableAttributedString *mAtrStr = [[NSMutableAttributedString alloc] initWithString:text];
+[mAtrStr x_addAttributeTextColor:[UIColor redColor] range:NSMakeRange(2, 2)];
+[mAtrStr x_addAttributeFont:[UIFont systemFontOfSize:12] range:NSMakeRange(0, 2)];
+[mAtrStr x_addAttributeUnderlineStyle:NSUnderlineStyleSingle color:[UIColor blackColor]];
+[self.atrLab setAttributedText:mAtrStr];
+```
 
 ## Author
 
