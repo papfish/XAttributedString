@@ -1,25 +1,25 @@
 //
-//  NSMutableAttributedString+XL.h
+//  NSMutableAttributedString+XAttributedString.h
 //  XAttributedString
 //
-//  Created by xuliang on 2017/7/28.
-//  Copyright © 2017年 leo. All rights reserved.
+//  Created by Leo on 04/16/2018.
+//  Copyright (c) 2018 Leo. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreText/CoreText.h>
 #import <UIKit/UIKit.h>
 
-@interface NSMutableAttributedString (XL)
+@interface NSMutableAttributedString (XAttributedString)
 
 /**
  *  添加文本颜色属性
  *
  *  @param color 文本颜色
  */
-- (void)x_addAttributeTextColor:(UIColor*)color;
+- (void)x_addAttributeTextColor:(UIColor *)color;
 
-- (void)x_addAttributeTextColor:(UIColor*)color
+- (void)x_addAttributeTextColor:(UIColor *)color
                           range:(NSRange)range;
 
 /**

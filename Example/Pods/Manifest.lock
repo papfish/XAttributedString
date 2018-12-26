@@ -1,5 +1,5 @@
 PODS:
-  - XAttributedString (0.1.0)
+  - XAttributedString (0.2.0)
 
 DEPENDENCIES:
   - XAttributedString (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XAttributedString: 2199f1c4a597fdc8a540b36f9ef9524211b8db9a
+  XAttributedString: 20c881a195e47d4da589190b10228138bd72d7c3
 
 PODFILE CHECKSUM: 2fcd4576b747b373e9108db5a292c37962404714
 

@@ -2,8 +2,8 @@
 //  XAppDelegate.m
 //  XAttributedString
 //
-//  Created by xuliang on 04/16/2018.
-//  Copyright (c) 2018 xuliang. All rights reserved.
+//  Created by Leo on 04/16/2018.
+//  Copyright (c) 2018 Leo. All rights reserved.
 //
 
 #import "XAppDelegate.h"

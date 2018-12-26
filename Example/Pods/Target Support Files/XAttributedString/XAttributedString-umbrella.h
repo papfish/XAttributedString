@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "NSMutableAttributedString+XL.h"
+#import "NSMutableAttributedString+XAttributedString.h"
 
 FOUNDATION_EXPORT double XAttributedStringVersionNumber;
 FOUNDATION_EXPORT const unsigned char XAttributedStringVersionString[];

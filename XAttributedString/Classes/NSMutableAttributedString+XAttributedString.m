@@ -1,24 +1,24 @@
 //
-//  NSMutableAttributedString+XL.m
+//  NSMutableAttributedString+XAttributedString.m
 //  XAttributedString
 //
-//  Created by xuliang on 2017/7/28.
-//  Copyright © 2017年 leo. All rights reserved.
+//  Created by Leo on 04/16/2018.
+//  Copyright (c) 2018 Leo. All rights reserved.
 //
 
-#import "NSMutableAttributedString+XL.h"
+#import "NSMutableAttributedString+XAttributedString.h"
 
 #define IN_RANGE(range) (NSMaxRange(range) <= [self length])
 
-@implementation NSMutableAttributedString (XL)
+@implementation NSMutableAttributedString (XAttributedString)
 
 #pragma mark - 文本颜色属性
-- (void)x_addAttributeTextColor:(UIColor*)color
+- (void)x_addAttributeTextColor:(UIColor *)color
 {
     [self x_addAttributeTextColor:color range:NSMakeRange(0, [self length])];
 }
 
-- (void)x_addAttributeTextColor:(UIColor*)color
+- (void)x_addAttributeTextColor:(UIColor *)color
                           range:(NSRange)range
 {
     if (color && IN_RANGE(range)) {
