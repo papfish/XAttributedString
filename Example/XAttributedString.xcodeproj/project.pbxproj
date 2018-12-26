@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				E39B21918F8E6E4894B7C3D8 /* [CP] Embed Pods Frameworks */,
-				6AC88E154D2B63DC561BE521 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				616024E33A534C276124AF38 /* [CP] Embed Pods Frameworks */,
-				4BCDFA16CF4A1C0B19713B63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,51 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4BCDFA16CF4A1C0B19713B63 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAttributedString_Tests/Pods-XAttributedString_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		616024E33A534C276124AF38 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAttributedString_Tests/Pods-XAttributedString_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AC88E154D2B63DC561BE521 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAttributedString_Example/Pods-XAttributedString_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D8C2C7FDA4622C9A894D875C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

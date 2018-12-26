@@ -26,7 +26,7 @@
     NSMutableAttributedString *mAtrStr = [[NSMutableAttributedString alloc] initWithString:text];
     [mAtrStr x_addAttributeTextColor:[UIColor redColor] range:NSMakeRange(2, 2)];
     [mAtrStr x_addAttributeFont:[UIFont systemFontOfSize:12] range:NSMakeRange(0, 2)];
-    [mAtrStr x_addAttributeUnderlineStyle:NSUnderlineStyleSingle color:[UIColor blackColor]];
+    [mAtrStr x_addAttributeUnderlineStyle:NSUnderlineStyleSingle color:[UIColor blackColor] range:NSMakeRange(4, 2)];
     [self.atrLab setAttributedText:mAtrStr];
 }
 
