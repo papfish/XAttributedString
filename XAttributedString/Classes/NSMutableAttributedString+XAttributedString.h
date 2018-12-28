@@ -23,6 +23,16 @@
                           range:(NSRange)range;
 
 /**
+ * 添加文本背景颜色属性
+ *
+ * @param color 文本背景颜色
+ */
+- (void)x_addAttributeBackgroundColor:(UIColor *)color;
+
+- (void)x_addAttributeBackgroundColor:(UIColor *)color
+                                range:(NSRange)range;
+
+/**
  *  添加文本字体属性
  *
  *  @param font 字体

@@ -11,6 +11,7 @@
 #endif
 
 #import "NSMutableAttributedString+XAttributedString.h"
+#import "UILabel+XAttributedString.h"
 
 FOUNDATION_EXPORT double XAttributedStringVersionNumber;
 FOUNDATION_EXPORT const unsigned char XAttributedStringVersionString[];

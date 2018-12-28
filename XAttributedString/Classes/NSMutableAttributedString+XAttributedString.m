@@ -29,6 +29,23 @@
     }
 }
 
+#pragma mark - 文本背景颜色
+- (void)x_addAttributeBackgroundColor:(UIColor *)color
+{
+    [self x_addAttributeBackgroundColor:color range:NSMakeRange(0, [self length])];
+}
+
+- (void)x_addAttributeBackgroundColor:(UIColor *)color
+                                range:(NSRange)range
+{
+    if (color && IN_RANGE(range)) {
+        
+        [self removeAttribute:NSBackgroundColorAttributeName range:range];
+        
+        [self addAttribute:NSBackgroundColorAttributeName value:color range:range];
+    }
+}
+
 #pragma mark - 文本字体属性
 - (void)x_addAttributeFont:(UIFont *)font
 {

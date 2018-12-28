@@ -27,15 +27,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试可点击字符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFa-Lj-CfK">
+                                <rect key="frame" x="126.5" y="360" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nhO-e8-GXS" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="JXO-es-dTj"/>
+                            <constraint firstItem="NFa-Lj-CfK" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Lhb-7F-RbM"/>
                             <constraint firstItem="nhO-e8-GXS" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="vCu-CA-MxY"/>
+                            <constraint firstItem="NFa-Lj-CfK" firstAttribute="top" secondItem="nhO-e8-GXS" secondAttribute="bottom" constant="16" id="w3P-1g-KSF"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="atrLab" destination="nhO-e8-GXS" id="fHJ-cn-B5h"/>
+                        <outlet property="atrTapLab" destination="NFa-Lj-CfK" id="Hkv-qO-Yb4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
