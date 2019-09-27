@@ -1,6 +1,6 @@
 # XAttributedString
 
-[![CI Status](http://img.shields.io/travis/xuliang/XAttributedString.svg?style=flat)](https://travis-ci.org/xuliang/XAttributedString)
+[![CI Status](http://img.shields.io/travis/papfish/XAttributedString.svg?style=flat)](https://travis-ci.org/papfish/XAttributedString)
 [![Version](https://img.shields.io/cocoapods/v/XAttributedString.svg?style=flat)](http://cocoapods.org/pods/XAttributedString)
 [![License](https://img.shields.io/cocoapods/l/XAttributedString.svg?style=flat)](http://cocoapods.org/pods/XAttributedString)
 [![Platform](https://img.shields.io/cocoapods/p/XAttributedString.svg?style=flat)](http://cocoapods.org/pods/XAttributedString)
@@ -47,7 +47,7 @@ NSMutableAttributedString *mAtrStr2 = [[NSMutableAttributedString alloc] initWit
 
 ## Author
 
-xuliang, liang.xv@qq.com
+papfish, liang.xv@qq.com
 
 ## License
 
