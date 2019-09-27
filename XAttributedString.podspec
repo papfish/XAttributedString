@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/papfish/XAttributedString'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xuliang' => 'liang.xv@qq.com' }
+  s.author           = { 'papfish' => 'liang.xv@qq.com' }
   s.source           = { :git => 'https://github.com/papfish/XAttributedString.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
