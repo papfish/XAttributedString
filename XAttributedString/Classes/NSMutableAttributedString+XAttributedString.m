@@ -167,19 +167,19 @@
 }
 
 #pragma mark - 文本段落样式属性
-- (void)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
-                      lineSpaceStyle:(CGFloat)linesSpacing
-                 paragraphSpaceStyle:(CGFloat)paragraphSpacing
-                      lineBreakStyle:(NSLineBreakMode)lineBreakMode
+- (NSMutableParagraphStyle *)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
+                                           lineSpaceStyle:(CGFloat)linesSpacing
+                                      paragraphSpaceStyle:(CGFloat)paragraphSpacing
+                                           lineBreakStyle:(NSLineBreakMode)lineBreakMode
 {
-    [self x_addAttributeAlignmentStyle:textAlignment lineSpaceStyle:linesSpacing paragraphSpaceStyle:paragraphSpacing lineBreakStyle:lineBreakMode range:NSMakeRange(0, self.length)];
+    return [self x_addAttributeAlignmentStyle:textAlignment lineSpaceStyle:linesSpacing paragraphSpaceStyle:paragraphSpacing lineBreakStyle:lineBreakMode range:NSMakeRange(0, self.length)];
 }
 
-- (void)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
-                      lineSpaceStyle:(CGFloat)linesSpacing
-                 paragraphSpaceStyle:(CGFloat)paragraphSpacing
-                      lineBreakStyle:(NSLineBreakMode)lineBreakMode
-                               range:(NSRange)range
+- (NSMutableParagraphStyle *)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
+                                           lineSpaceStyle:(CGFloat)linesSpacing
+                                      paragraphSpaceStyle:(CGFloat)paragraphSpacing
+                                           lineBreakStyle:(NSLineBreakMode)lineBreakMode
+                                                    range:(NSRange)range
 {
     if (IN_RANGE(range)) {
         
@@ -192,7 +192,9 @@
         style.lineBreakMode = lineBreakMode;
         
         [self addAttribute:NSParagraphStyleAttributeName value:style range:range];
+        return style;
     }
+    return nil;
 }
 
 @end

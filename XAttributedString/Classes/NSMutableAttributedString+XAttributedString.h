@@ -99,15 +99,15 @@
  *  @param paragraphSpacing 段落间距
  *  @param lineBreakMode    文本换行样式
  */
-- (void)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
-                      lineSpaceStyle:(CGFloat)linesSpacing
-                 paragraphSpaceStyle:(CGFloat)paragraphSpacing
-                      lineBreakStyle:(NSLineBreakMode)lineBreakMode;
+- (NSMutableParagraphStyle *)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
+                                           lineSpaceStyle:(CGFloat)linesSpacing
+                                      paragraphSpaceStyle:(CGFloat)paragraphSpacing
+                                           lineBreakStyle:(NSLineBreakMode)lineBreakMode;
 
-- (void)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
-                      lineSpaceStyle:(CGFloat)linesSpacing
-                 paragraphSpaceStyle:(CGFloat)paragraphSpacing
-                      lineBreakStyle:(NSLineBreakMode)lineBreakMode
-                               range:(NSRange)range;
+- (NSMutableParagraphStyle *)x_addAttributeAlignmentStyle:(NSTextAlignment)textAlignment
+                                           lineSpaceStyle:(CGFloat)linesSpacing
+                                      paragraphSpaceStyle:(CGFloat)paragraphSpacing
+                                           lineBreakStyle:(NSLineBreakMode)lineBreakMode
+                                                    range:(NSRange)range;
 
 @end
